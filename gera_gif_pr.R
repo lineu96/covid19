@@ -227,8 +227,11 @@ prmu_deaths_cat_tidy <- left_join(prmu_deaths_cat_tidy,
 #--------------------------------------------------------------
 
 # GRAFICO
-for (i in 13:(ncol(prmu_totalCases_cat_tidy)-1)) {
-  
+
+# 13 para gerar todas as imagens
+#for (i in 13:(ncol(prmu_totalCases_cat_tidy)-1)) {
+
+for (i in (ncol(prmu_totalCases_cat_tidy)-1):(ncol(prmu_totalCases_cat_tidy)-1)) {  
   g<-ggplot(prmu_totalCases_cat_tidy, 
             aes_string(x = 'long', y = 'lat', group = 'group', 
                        #fill = prmu_conf_tidy[,11])) +

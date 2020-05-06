@@ -1731,7 +1731,7 @@ Column {data-width=125}
 dados_cwb <- subset(dados_br, 
                     city == 'Curitiba/PR'|
                       city == 'Porto Alegre/RS'|
-                      city == 'Florianópolis/SC'|
+                      #city == 'Florianópolis/SC'|
                       city == 'São Paulo/SP'|
                       city == 'Rio de Janeiro/RJ'
 )

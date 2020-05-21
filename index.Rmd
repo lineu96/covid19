@@ -6,7 +6,6 @@ output:
     vertical_layout: fill
     horizontal_layout: scroll
     
-    
     #source_code: embed # cria um link com o código para gerar o dash.
     #logo: logo.png
     
